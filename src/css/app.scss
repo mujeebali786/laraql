@@ -1,0 +1,131 @@
+// app global css in SCSS form
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/source-code-pro');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+.source-code-pro{
+    font-family: 'Source Code Pro', sans-serif;                                               
+}
+a{
+    text-decoration: none;
+}
+.fs-22{
+    font-size: clamp(1rem, 0.925rem + 0.375vw, 1.375rem);
+}
+.fs-20{
+    font-size: clamp(1.125rem, 1.1rem + 0.125vw, 1.25rem);
+}
+
+.fs-48{
+    font-size: clamp(1.75rem, 1.5rem + 1.25vw, 3rem);
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.rounded-1{
+    border-radius: 6px !important;
+}
+.bg-gradient{
+    background: linear-gradient(135deg, #8a2387, #e94057, #f27121);
+    padding: 5px 5px 8px 5px;
+}
+.fs-36{
+    font-size: clamp(1.625rem, 1.5rem + 0.625vw, 2.25rem);
+}
+.rounded-trl{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.rounded-brl{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.h-100{
+    height: 90vh !important;
+}
+.bg-light{
+    background: linear-gradient(135deg, #ff2d55 0%, #f94dbb 50%, #f81ce5 100%) !important;
+}
+.bg-muted{
+    background-color: #f5f5f5 !important;
+}
+.text-muted{
+    color: hsl(0 , 0% , 89.8%) !important;
+}
+.text-mute{
+    color: #737373;
+}
+.text-light{
+   color: hsl(0 , 0% , 41.1%) !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+.blur{
+    backdrop-filter: blur(8px);
+}
+.bg-blur{
+    background: hsl(0 ,0%, 100%);
+}
+.transparent-1 {
+    background: #ffffff9c !important;
+}
+.icon .q-icon{
+    font-size: 20px !important;
+}
+.rounded-md{
+    border-radius: 8px;
+}
+.rounded-sm{
+    border-radius: 6px !important;
+}
+.border{
+    border: 1px solid hsl(0 , 0% ,89.8%) !important;
+}
+.fs-12{
+    font-size: 12px;
+}
+.custom-gradient{
+  background: linear-gradient(#fff1f2,#fff);
+}
+.underline-offset-4 {
+    text-underline-offset: 4px;
+}
+.underline {
+    text-decoration-line: underline;
+}
+.border-1{
+    border: 1px solid #e5e5e5;
+}
+.round-24{
+    border-radius: 24px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fw-6{
+    font-weight: 600;
+}
+.border-left{
+    border-left: 2px solid #e11d48;
+}
+.break-word {
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+.h-170{
+    height: 170px;
+}
+.py-2{
+    padding: 2px 4px;
+}
+.small-circle{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%,
+}
