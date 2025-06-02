@@ -48,7 +48,7 @@ const cards = [
         src: 'img:/src/assets/queryred.svg',
         text: 'Mutation Resolvers',
         para: "Mutation resolvers for creating, updating, and deleting models.",
-        class: 'q-pr-sm'
+        class: 'q-pr-sm '
     },
     {
         src: 'img:/src/assets/queryred.svg',
