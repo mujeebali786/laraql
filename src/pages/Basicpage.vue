@@ -36,7 +36,7 @@ const cards = [
         src: 'img:/src/assets/queryred.svg',
         text: 'GraphQL Type',
         para: "A GraphQL type based on your model's properties and relationships.",
-        class: 'q-pr-sm'
+        class: 'q-pr-sm '
     },
     {
         src: 'img:/src/assets/queryred.svg',
